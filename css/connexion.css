@@ -1,0 +1,31 @@
+
+
+            .login-form {
+                width: 340px;
+                margin: 50px auto;
+            }
+            .login-form form {
+                margin-bottom: 20px;
+                /* background: #059ff8; */
+                box-shadow: 4px 4px 4px rgba(96, 119, 219, 0.3);
+                padding: 30px;
+            }
+            .login-form h2 {
+                margin: 0 0 15px;
+            }
+            .form-control, .btn {
+                min-height: 38px;
+                border-radius: 2px;
+            }
+            .btn {        
+                font-size: 15px;
+                font-weight: bold;
+                
+            }
+
+            body
+            {
+                /* background-color: #010613; */
+            /*  background-image: url("../images/index/ville-port.jpg"); */
+
+         }

@@ -1,0 +1,94 @@
+/*réinitialise les valeurs de marge et de remplissage par défaut de tous les éléments HTML*/
+/*réinitialise le modèle de boîte à border-boxpour tous les éléments HTML*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p{
+    color: black;
+}
+
+#div-f
+{
+display: flex;
+flex-direction: row;
+width: 100%;
+}
+
+#div-g{
+    maring-right: 50px;
+    padding-right: 50px;
+}
+
+#div-h{
+    maring-right: 50px;
+    padding-right: 50px;
+}
+
+
+/*Div principal avant la balise form ! */
+
+
+.div-second{
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+
+/*Toutes les div dans la balise form*/
+
+.div-form{
+   /* border: 1px solid red; */ 
+   /*Taille parfaite */ margin:0px 90px; 
+   /*Taille parfaite */ padding: 20px 20px;
+   position: relative;
+   }
+   
+.div-sous-form{
+        border: 1px solid grey;
+        padding-bottom: 14px;
+        border-radius: 5px;
+   }
+
+
+.top-p{
+    position: relative;
+    top: 17px;
+}
+
+#utilisateur-p{right: 89px; top: 22px;}
+
+#newLogin-p{right: 93px; top: 22px;}
+
+#Newmdp-p{right: 68px; top: 22px;}
+
+#mdp-p{right: 63px; top: 22px;}
+
+
+/*Champs de saisie*/
+.input{
+    height: 20px;
+    width: 150px;
+    border: 70% auto black;
+    border-radius: 5px;
+    position: relative;
+    left: 50px; 
+}
+
+#button{
+    margin-bottom: 30px;
+    margin-right: 40px;
+      height: 35px;
+    width: 200px;
+}
+/*Bouton envoyer*/
+#button:hover{
+    color: green;
+}
+
+#test:hover{
+    color:pink;
+}

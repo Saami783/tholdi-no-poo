@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  height: 80vh;
+  margin: 100px;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
+
+
+ td {
+  padding: 2px 20px;
+  font-size: 16px;
+  text-align: center;
+  color: blue;
+
+}
+
+
+ tbody tr, td {
+  border: 3px solid #ddd;
+  line-height: 18px;
+  border-radius: 20px;
+
+}
+
+
+  tbody tr:nth-child(even){
+  background-color: #E7EEF8 ;
+}
+
+
+.container:hover
+{
+  box-shadow: 0 10px 20px;
+  background-color: #ddd;
+}
+
+
+
+.container
+{
+    position: relative;
+    width: 1000px;
+    padding: 40px;
+    top: 5%;
+    left: 25%;
+    box-sizing: border-box;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.container .card h2
+{
+    color: grey;
+    margin: 0;
+    font-size: 25px;
+}
+
+.container .card p
+{
+    text-align: justify;
+    font-size: 20px;
+}
+.container .card
+{
+    max-width: 1000px;
+    background: #fff;
+    margin: 20px;
+    padding: 15px;
+    display: flex;
+
+}
+
+
+.container .card .content 
+ {
+     margin-left: 30px;
+ }

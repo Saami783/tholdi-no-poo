@@ -1,0 +1,64 @@
+.box{
+
+    font-family: "Montserrat", sans-serif;
+}
+
+.header {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 999;
+    background-color: white;
+
+}
+
+.header .header-logo {
+    color: white;
+    float: left;
+    margin-left: 16px;
+    text-decoration: none;
+
+}
+
+.header  .header-nav {
+   float: left;
+   margin-left: 30px;
+   font-family: "Montserrat", sans-serif;
+   justify-content: space-between;
+   color: black;
+}
+
+.header .header-nav a{
+    margin-right: 30px;
+    color: black;
+    text-decoration: none;
+
+}
+
+.header .header-nav a:hover {
+    color: darkgrey;
+}
+
+.button {
+
+    cursor: pointer;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    float: right;
+    text-decoration: none;
+    color: black;
+    line-height: 70px;
+
+}
+
+.button:hover {
+
+    color: darkgrey;
+}
+
